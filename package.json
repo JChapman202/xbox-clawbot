@@ -1,0 +1,20 @@
+{
+  "name": "xbox-clawbot",
+  "version": "0.0.0",
+  "description": "Clawbot controlled via an Xbox 360 Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bluebird": "~2.3.11",
+    "johnny-five": "~0.8.8",
+    "raspi-io": "^1.0.0",
+    "xboxdrv": "git://github.com/JChapman202/xboxdrv.git",
+    "xbox-controller": "~0.4.3",
+    "clawbot": "git://github.com/JChapman202/clawbot.git",
+    "keypress": "~0.2.1"
+  }
+}
